@@ -107,3 +107,18 @@
 [26-Jul-2016 09:19:50 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/aiccgov/public_html/data/conn1.php on line 17
 [26-Jul-2016 09:19:51 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/aiccgov/public_html/data/conn1.php on line 17
 [26-Jul-2016 16:53:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[17-Sep-2016 20:44:38 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[23-Oct-2016 07:22:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[25-Oct-2016 19:04:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[07-Nov-2016 07:30:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[17-Nov-2016 21:07:46 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[21-Nov-2016 00:20:32 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 00:20:35 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 00:20:35 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 00:20:36 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 00:20:38 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 00:20:38 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 00:20:38 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 00:35:11 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 03:15:36 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[21-Nov-2016 03:15:37 UTC] PHP Warning:  mysql_connect(): Too many con
