@@ -113,8 +113,32 @@
             </div>
     	</div>
     </div>
-    
+
     <div class="span4" style="margin-left:8px;">
+        <? $off=$groups->getById(CO_OFFICER); $offGet=$conn->fetchArray($off); ?>
+        <div class="testimonials-title">
+            <h3 style=""><?=$offGet['name'];?></h3>
+        </div>
+        <div class="row">
+            <div class="testimonial-list span4" style="margin-top:15px;">
+                <div class="tabbable tabs-below">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="A">
+                            <img src="<?=CMS_GROUPS_DIR.$offGet['image'];?>" title="<?=$offGet['name'];?>" alt="<?=$offGet['name'];?>" style="margin: 0.8% 2% 0 1%;width: 33%;">
+                            <p style="text-align:justify; font-size:17px">
+                                <?=$offGet['shortcontents'];?>...<br />
+                                <a class="violet" href="<?=$offGet['urlname'];?>">[ विस्तृत ]</a>
+                            </p>
+                        </div>
+                        
+                    </div>
+                   
+               </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="span4" style="margin-left:8px;">
 		<? $notice=$groups->getById(NOTICE); $noticeGet=$conn->fetchArray($notice); ?>
     	<div class="testimonials-title">
         	<h3 style=""><?=$noticeGet['name'];?></h3>
@@ -135,7 +159,7 @@
                </div>
             </div>
     	</div>
-    </div>
+    </div> -->
     
 </div>
 
