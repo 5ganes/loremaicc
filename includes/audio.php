@@ -1,6 +1,6 @@
 <?
 	//$parentId=$_GET['pid'];
-	$audio=$groups->getByParentId($_GET['pid']);
+	$audio=$groups->getByParentIdWithOrder($_GET['pid'], 'weight','DESC');
 ?>
 <div class="page-title">
     <div class="container">

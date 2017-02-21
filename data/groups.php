@@ -797,6 +797,18 @@ class Groups
 		
 		return $result;
 	}
+
+	function getByParentIdWithOrder($parentId, $weight, $order)
+	{
+		global $conn;
+		
+		$parentId = cleanQuery($parentId);
+		
+		$sql = 'SElECT * FROM groups WHERE parentId = '.$parentId.' ORDER BY '.$weight.' '.$order;
+		$result = $conn->exec($sql);
+		
+		return $result;
+	}
 	
 	function getByParentIdAndType($id, $type)
 	{

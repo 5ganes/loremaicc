@@ -1,6 +1,6 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="2">
   <tr>
-    <td colspan="5" class="heading2">
+    <td colspan="6" class="heading2">
 			<?php	
 			if ($parentId != 0)
 			{
@@ -26,6 +26,7 @@
     <td class="tahomabold11">S.No</td>
     <td class="tahomabold11">Name</td>
     <td class="tahomabold11">Type</td>
+    <td class="tahomabold11">Upload Date</td>
     <td class="tahomabold11">Weight</td>
     <td class="tahomabold11">Action</td>
   </tr>
@@ -49,6 +50,7 @@
     <td valign="top"><?php echo $counter; ?></td>
     <td valign="top"><?php echo $row['name']; ?></td>
     <td valign="top"><?php echo $row['linkType']; ?></td>
+    <td valign="top"><?php echo $row['onDate']; ?></td>
     <td valign="top"><?php echo $row['weight']; ?></td>
     <td valign="top"><?php
 		if ($withOpen)
