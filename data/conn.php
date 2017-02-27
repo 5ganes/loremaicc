@@ -19,6 +19,7 @@
 			$this->dbname = "aicc";
 			
 			$this->links = mysql_connect($this->host,$this->uname,$this->psw) or die("Sorry, couldnot connect to MySQL Server");
+			mysql_set_charset('utf8',$this->links);
 			$this->db = mysql_select_db($this->dbname,$this->links) or die("Sorry, couldnot find database");			
 		}
 		

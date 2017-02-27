@@ -3,14 +3,7 @@
 <html lang="en">
 
     <head>
-		
-       	<?
-		if(isset($_GET['action']) and $_GET['action']=="krishi-diary")
-		{}	
-		else
-		{?>
-        	<meta charset="utf-8">
-        <? }?>
+        <meta charset="utf-8">
         <title>Agriculture Information & Communucation Center</title>
         <? include("baselocation.php"); ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -152,7 +145,7 @@
         
         
         <!-- Footer -->
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
         <footer>
             <div class="container">
                 <div class="row">

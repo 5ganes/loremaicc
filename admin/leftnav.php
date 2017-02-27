@@ -14,9 +14,9 @@
         <li><a href="cms.php?groupType=Header">Manage Menubar</a></li>
         <li><a href="cms.php?id=8&parentId=0&groupType=Other">Manage Slider</a></li>
         <li><a href="cms.php?parentId=1005&groupType=Other&open">Information Categories</a></li>
-        <li><a href="cms.php?id=998&parentId=0&groupType=Other">केन्द्र प्रमुख</a></li>
-        <li><a href="cms.php?id=1245&parentId=0&groupType=Other">सुचना अधिकारी</li>
-        <li><a href="cms.php?id=1400&parentId=0&groupType=Other">सहायक सुचना अधिकारी</li>
+        <li><a href="cms.php?id=998&parentId=0&groupType=Other">Message From Chief</a></li>
+        <li><a href="cms.php?id=1245&parentId=0&groupType=Other">Information Officer</li>
+        <li><a href="cms.php?id=1400&parentId=0&groupType=Other">Co-Information Officer</li>
       	<!--<li><a href="cms.php?parentId=275&groupType=Other&open">Manage Catalog</a></li>-->
       <li><a href="cms.php?groupType=Other">Manage Other</a></li>
       <!--<li><a href="feedbacks.php">View Feedbacks</a></li>
