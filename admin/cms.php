@@ -35,6 +35,7 @@ if (isset($_GET['groupType']))
 <script language="javascript" src="../js/jquery.min.js"></script>
 
 <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 </head>
 <body>

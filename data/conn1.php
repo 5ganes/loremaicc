@@ -9,15 +9,10 @@
 		var $db;
 		
 		function Dbconn(){
-			// $this->host = "localhost";
-			// $this->uname ="aiccgov_krishigh"; 		
-			// $this->psw = "m%aLO{O7vCMD";					
-			// $this->dbname = "aiccgov_krishigh";
-
 			$this->host = "localhost";
-			$this->uname = "root"; 		
-			$this->psw = "";					
-			$this->dbname = "aicc";
+			$this->uname ="aiccgov_ictan"; 		
+			$this->psw = "K0G9wM3Shz,a";					
+			$this->dbname = "aiccgov_ictan";
 			
 			$this->links = mysql_connect($this->host,$this->uname,$this->psw) or die("Sorry, couldnot connect to MySQL Server");
 			mysql_query("SET character_set_results = 'utf8', character_set_client = 'utf8', character_set_connection = 'utf8', character_set_database = 'utf8', character_set_server = 'utf8'", $this->links);

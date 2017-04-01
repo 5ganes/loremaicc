@@ -10,16 +10,16 @@
 		
 		function Dbconn(){
 			// $this->host = "localhost";
-			// $this->uname = "aiccgov_krishigh"; 		
-			// $this->psw = "m%aLO{O7vCMD";					
-			// $this->dbname = "aiccgov_krishigh";
+			// $this->uname = "aiccgov_ictan"; 		
+			// $this->psw = "K0G9wM3Shz,a";					
+			// $this->dbname = "aiccgov_ictan";
 			$this->host = "localhost";
 			$this->uname = "root"; 		
 			$this->psw = "";					
 			$this->dbname = "aicc";
 			
 			$this->links = mysql_connect($this->host,$this->uname,$this->psw) or die("Sorry, couldnot connect to MySQL Server");
-			mysql_set_charset('utf8',$this->links);
+                        mysql_set_charset('utf8',$this->links);
 			$this->db = mysql_select_db($this->dbname,$this->links) or die("Sorry, couldnot find database");			
 		}
 		

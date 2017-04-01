@@ -121,4 +121,45 @@
 [21-Nov-2016 00:20:38 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
 [21-Nov-2016 00:35:11 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
 [21-Nov-2016 03:15:36 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
-[21-Nov-2016 03:15:37 UTC] PHP Warning:  mysql_connect(): Too many con
+[21-Nov-2016 03:15:37 UTC] PHP Warning:  mysql_connect(): Too many con[28-Dec-2016 18:06:31 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[27-Jan-2017 18:49:26 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[27-Jan-2017 18:49:26 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[27-Jan-2017 18:49:26 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[27-Jan-2017 18:49:26 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[27-Jan-2017 18:49:26 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[27-Jan-2017 18:49:26 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[27-Jan-2017 18:49:31 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[27-Jan-2017 18:49:39 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:15:55 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:16:51 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:43:49 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:31 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:31 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:32 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:32 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:33 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:34 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:50 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 06:47:53 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 07:16:39 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 07:16:39 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[31-Jan-2017 07:16:39 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:05 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:05 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:05 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:05 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:05 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:05 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:08 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:28 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 03:11:32 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 15:05:15 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 15:05:15 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 15:05:16 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 15:05:16 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 15:05:16 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[01-Feb-2017 15:05:16 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[02-Feb-2017 03:48:01 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[02-Feb-2017 03:48:02 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/aiccgov/public_html/data/conn1.php on line 17
+[24-Feb-2017 08:35:15 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
+[06-Mar-2017 22:25:22 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/aiccgov/public_html/service/data.php on line 64
