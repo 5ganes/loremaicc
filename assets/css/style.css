@@ -93,7 +93,7 @@ strong { font-weight: bold; }
 /*for sub menubar*/
 .header ul.nav li ul li a {
     padding: 0;
-    text-shadow: none; font-size:12px;
+    text-shadow: none; font-size:12px; display: block;
 }
 .header ul.nav li:hover ul li a:hover {
 	background:none;
@@ -1159,8 +1159,15 @@ ul.portfolio-img li {
 .magazinesidebar{ width:278px; min-width:20%; background:#f4f4f4; margin-right:2%; float:left}
 .magazinefile{ width:73.3%; min-width:262px; margin-left:10px; float:left; text-align:justify}
 .magazinesidebar ul{ margin:0 0 0 32px}
-.magazinesidebar ul li{ margin:8px 0px; font-size:17px;}
-.magazinesidebar ul li:hover{text-decoration:underline}
+.magazinesidebar ul li{ 
+    margin: 1% 0px;
+    font-size: 17px;
+    background: #aad2aa;
+    padding: 2% 4%;
+}
+.magazinesidebar ul li a{display: block;}
+.magazinesidebar ul li a:hover{} 
+.magazinesidebar ul li:hover{background: #85ca85}
 .magazinefile ul{ margin:0;}
 .magazinefile ul li{ margin:0; list-style:none; margin:15px 0px 0px}
 .filetitle{float:left; width:50%; min-width:200px;}

@@ -40,7 +40,12 @@
 									else
 										$link=$subGet['urlname'];?>
                                     <li>
-                                        <a href="<?=$link;?>" <? if($pageId==LINKS) echo 'target="_blank"';?> title="<?=$subGet['name'];?>">
+                                        <a href="<?php
+                                                        if($groups->radioProgramCheck($subGet['id'])==1)
+                                                            echo 'radio/';
+                                                        echo $link;
+                                                ?>" <? if($pageId==LINKS) echo 'target="_blank"';?> title="<?=$subGet['name'];?>"
+                                        >
                                             <?=$subGet['name'];?>
                                         </a>
                                     </li>

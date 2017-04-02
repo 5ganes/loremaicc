@@ -43,7 +43,17 @@ function createSubMenu($parentId, $groupType)
 	while($groupRow = $conn->fetchArray($groupResult))
 	{?>
 		<li>
-    	<a href="<? if($groupRow['id']==1){ echo "#"; }else if($groupRow['id']==1009){ echo "publications.php";}else{ echo $groupRow['urlname'];}?>" <? if($parentId==1022){?>target="_blank"<? }?>>
+    	<a href="<? 
+    				if($groupRow['id']==1){ echo "#"; }
+    				else if($groupRow['id']==1009){ echo "publications.php";}
+    				else{ 
+    					if($groups->radioProgramCheck($groupRow['id'])==1){
+    						echo 'radio/';
+    					}
+    					echo $groupRow['urlname'];
+    				}
+    			?>" <? if($parentId==1022){?>target="_blank"<? }?>
+    	>
 			<? if($parentId==0){?><i class="<? include("menuIcon.php"); ?>"></i><br /><? }?><?=$groupRow['name'];?>
       	</a>
 		<?

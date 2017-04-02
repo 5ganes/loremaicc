@@ -1571,8 +1571,15 @@ class Groups
 		else
 			return 10;
 	}
+	//post form frond end
 	
-	//post from frond end
-	
+	function radioProgramCheck($id){
+		global $conn;
+		$sql = "SELECT parentId FROM groups WHERE id = (select parentId from groups where id = (select parentId from groups where id ='$id'))";
+		$result = $conn->exec($sql);
+		$row = $conn->fetchArray($result);
+		return $row['parentId'];
+	}
+
 }
 ?>

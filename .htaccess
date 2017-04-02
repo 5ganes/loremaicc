@@ -54,6 +54,7 @@ RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^forum.php/([0-9]+)$ forum.php?id=$1 [L]
 
 #for audio url
+RewriteRule ^radio/([-A-Za-z0-9]+)$ index.php?action=radio_yearwise&url=$1 [L]
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^radio-programs$ index.php?action=audio&pid=1069 [L]
